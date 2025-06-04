@@ -19,7 +19,7 @@ syntax keyword shellSpecMatchers satisfy exist be exist file directory empty emp
 
 syntax keyword shellSpecHooks Before BeforeEach After AfterEach BeforeAll AfterAll BeforeCall AfterCall BeforeRun AfterRun
 
-syntax match shellSpecDirectives "[%]\(const\|text\|putsn\|=\|-\|puts\|logger\|preserve\)"
+syntax match shellSpecDirectives "%\(const\|text\|putsn\|=\|-\|puts\|logger\|preserve\)"
 
 hi def link shellSpecKeyWords Function
 hi def link shellSpecKeyWords2 Statement
